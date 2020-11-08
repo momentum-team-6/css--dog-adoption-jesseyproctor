@@ -1,0 +1,36 @@
+
+* {
+    margin: 0;
+}
+
+.header {
+    background-color: #004175;
+    color: white;
+    padding: 20px;
+    padding-left: 30px;
+}
+
+.dogs {
+    border: solid 5px red;
+}
+
+.footer{
+
+}
+
+
+
+.dog-card {
+    border: solid 5px black;
+    width: 500px;
+
+}
+
+.dog-card img {
+    width: 100%;
+}
+
+
+li {
+    list-style-type: none;
+}
