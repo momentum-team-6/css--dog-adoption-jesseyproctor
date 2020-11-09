@@ -11,23 +11,34 @@
 }
 
 .dogs {
-    border: solid 5px red;
+    display:flex;
+    flex-wrap: wrap;
+    width:100%;
 }
 
 .footer{
 
 }
 
-
-
 .dog-card {
-    border: solid 5px black;
-    width: 500px;
-
+    /* border: solid 5px black; */
+    width: 200px;
 }
 
 .dog-card img {
     width: 100%;
+}
+
+.tag li {
+    border:solid 1px black;
+    border-radius: 25px;
+    display: inline-block;
+    padding-color: 89DEEF;
+    padding-inline-start: 0px;
+    padding:4px; 
+    margin: 2px;
+    background: 89DEEF;
+    font-size: .5em;
 }
 
 
