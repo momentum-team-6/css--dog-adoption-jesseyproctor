@@ -31,10 +31,13 @@ h2 {
     display:flex;
     flex-wrap: wrap;
     font-size: 3em;
+    /* border:3px solid red; */
 }
 
 .footer img {
-    width: 250px;
+    display: flex;
+    flex: 1 1 auto;
+    /* justify-content: center; */
 }
 
 .footer p {
