@@ -38,7 +38,16 @@ h2 {
     display: flex;
     flex: 1 1 auto;
     /* justify-content: center; */
-}
+    /* .tinted-image {
+        background: 
+          /* top, transparent red, faked with gradient */ 
+          linear-gradient(
+            rgba(255, 0, 0, 0.45), 
+            rgba(255, 0, 0, 0.45)
+          ),
+          /* bottom, image */
+          url(image.jpg);
+} */
 
 .footer p {
     background-color: #A6A9F0;
